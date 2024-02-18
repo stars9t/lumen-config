@@ -1,0 +1,11 @@
+fileformat: "1"
+id: lumen
+name: Lumen
+type: shield
+url: https://github.com/stars9t/lumen-conf
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - lumen_left
+  - lumen_right

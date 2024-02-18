@@ -1,0 +1,16 @@
+if SHIELD_LUMEN_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Lumen"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_LUMEN_LEFT || SHIELD_LUMEN_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
